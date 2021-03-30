@@ -1,0 +1,32 @@
+version: "3.5"
+
+
+services:
+    
+    container1:
+        container_name: no_1
+        image: mysql:latest
+        ports: 
+            - "3302:3310"
+        environment:
+            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+           
+            
+            
+    container2:
+        container_name: no_2
+        image: mysql:latest
+        ports: 
+            - "3303:3310"
+        environment:
+            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+           
+
+
+    container3:
+        container_name: no_3
+        image: mysql:latest
+        ports: 
+            - "3304:3310"
+        environment:
+            - MYSQL_ALLOW_EMPTY_PASSWORD=yes

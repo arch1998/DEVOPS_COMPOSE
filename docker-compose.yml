@@ -4,7 +4,7 @@ version: "3.5"
 services:
     
     container1:
-        container_name: no_1
+        container_name: number_1
         image: mysql:latest
         ports: 
             - "3302:3310"
@@ -14,7 +14,7 @@ services:
             
             
     container2:
-        container_name: no_2
+        container_name: number_2
         image: mysql:latest
         ports: 
             - "3303:3310"
